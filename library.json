@@ -25,8 +25,8 @@
       "enabled": false
     },
     {
-      "matchPackageNames": ["jar"],
-      "enabled": false
+      "matchPackagePatterns": ["com.cerner.security"],
+      "excludePackageNames": ["security-auditing-ml","security-auditing","security-enterprise"]
     },
     {
       "matchDepTypes": [
