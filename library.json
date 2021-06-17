@@ -20,7 +20,7 @@
   "packageRules": [
     {
       "matchPackagePatterns": [
-        "org.slf4j.*"
+        "org.slf4j.*","com.cerner.maven:maven-base-pom"
       ],
       "enabled": false
     },
@@ -32,5 +32,14 @@
       "enabled": false
     }
   ],
-  "baseBranches": ["master"]
+  "baseBranches": ["master"],
+  "separateMajorMinor": false,
+  "lockFileMaintenance": {
+    "enabled": false
+  },
+  "branchName": "renovate-stay-current",
+  "commitBodyTable": true,
+  "commitMessageAction": "Auto-update",
+  "commitMessageExtra": "cerner dependencies",
+  "prTitle": "Update dependencies by Rennovate Bot."
 }
