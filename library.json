@@ -20,7 +20,7 @@
   "packageRules": [
     {
       "matchPackagePatterns": [
-        "*"
+        "org.slf4j.*"
       ],
       "rangeStrategy": "pin"
     },
