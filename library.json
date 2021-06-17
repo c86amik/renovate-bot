@@ -25,6 +25,13 @@
       "enabled": false
     },
     {
+      "matchPackagePatterns": [
+        "com.cerner.*"
+      ],
+      "enabled": false,
+      "name": "cerner-specific"
+    },
+    {
       "matchDepTypes": [
         "devDependencies",
         "peerDependencies"
