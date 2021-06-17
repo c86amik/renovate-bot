@@ -16,5 +16,20 @@
     "group:monorepos",
     "group:recommended",
     "workarounds:all"
+  ],
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "rangeStrategy": "pin"
+    },
+    {
+      "matchDepTypes": [
+        "engines",
+        "peerDependencies"
+      ],
+      "rangeStrategy": "auto"
+    }
   ]
 }
