@@ -25,6 +25,10 @@
       "enabled": false
     },
     {
+      "matchPackageNames": ["maven"],
+      "enabled": false
+    },
+    {
       "matchDepTypes": [
         "devDependencies",
         "peerDependencies"
