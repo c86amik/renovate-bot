@@ -20,13 +20,9 @@
   "packageRules": [
     {
       "matchPackagePatterns": [
-        "org.slf4j.*","com.cerner.maven:maven-base-pom"
+        "com.oracle.*","com.cerner.maven:maven-base-pom"
       ],
       "enabled": false
-    },
-    {
-      "matchPackagePatterns": ["com.cerner.security.*"],
-      "excludePackageNames": ["security-auditing-ml","security-auditing","security-enterprise"]
     },
     {
       "matchDepTypes": [
