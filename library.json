@@ -25,7 +25,7 @@
       "enabled": false
     },
     {
-      "matchPackagePatterns": ["security.*"],
+      "matchPackagePatterns": ["com.cerner.security.*"],
       "excludePackageNames": ["security-auditing-ml","security-auditing","security-enterprise"]
     },
     {
