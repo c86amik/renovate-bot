@@ -25,7 +25,7 @@
       "enabled": false
     },
     {
-      "matchPackageNames": ["com.cerner.security.auditing.security-auditing"],
+      "matchPackageNames": ["jar"],
       "enabled": false
     },
     {
