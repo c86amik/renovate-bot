@@ -25,7 +25,7 @@
       "enabled": false
     },
     {
-      "matchPackageNames": ["com.cerner.security.auditing"],
+      "matchPackageNames": ["security-auditing"],
       "enabled": false
     },
     {
