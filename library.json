@@ -29,7 +29,7 @@
         "com.cerner.*"
       ],
       "enabled": true,
-      "packageName": "cerner-specific"
+      "name": "cerner-specific"
     },
     {
       "matchDepTypes": [
