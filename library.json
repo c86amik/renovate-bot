@@ -2,7 +2,6 @@
   "extends": [
     "config:base",
     ":labels(dependencies,CVE)",
-    ":baseBranches(master)",
     ":separateMajorReleases",
     ":combinePatchMinorReleases",
     ":ignoreUnstable",
@@ -32,5 +31,6 @@
       ],
       "enabled": false
     }
-  ]
+  ],
+  "baseBranches": ["master"]
 }
