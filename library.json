@@ -22,14 +22,14 @@
       "matchPackagePatterns": [
         "org.slf4j.*"
       ],
-      "rangeStrategy": "pin"
+      "enabled": false
     },
     {
       "matchDepTypes": [
-        "engines",
+        "devDependencies",
         "peerDependencies"
       ],
-      "rangeStrategy": "auto"
+      "enabled": false
     }
   ]
 }
