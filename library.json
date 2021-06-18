@@ -28,7 +28,7 @@
       "matchPackagePatterns": [
         "com.cerner.*"
       ],
-      "enabled": true,
+      "enabled": false,
       "name": "cerner-specific"
     },
     {
